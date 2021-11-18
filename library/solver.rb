@@ -1,14 +1,12 @@
-class Solution
-  def factorial(num)
-    raise StandardError, 'This method only accepts 0 and positive integers' if num.negative?
+class Solver
+  def factorial(number)
+    raise StandardError, 'the method accepts just positive numbers or 0' if number.negative?
 
-    result = 1
-    while num.positive?
-      result *= num
-      num -= 1
+    if [1, 0].include?(number)
+      1
+    else
+      number * factorial(number - 1)
     end
-
-    result
   end
 
   def reverse(word)
