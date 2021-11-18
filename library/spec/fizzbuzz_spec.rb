@@ -1,1 +1,0 @@
-require_relative '../fizzbuzz/fizzbuzz'
