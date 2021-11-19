@@ -21,6 +21,13 @@ So the idea behind TDD is simple enough:
     3- Write code.
     4- Run the test; it passes. If it fails go back to step 3.
 
+</br>
+ <div align="center">
+   <kbd>
+    <img alt="gif" src="https://user-images.githubusercontent.com/80895497/142518401-d293fa4a-db99-4077-b763-79dcfda88e47.jpeg" width=100% />
+    <p>TDD tests from the terminal</p>
+   </kbd>
+</div>
 
 ## Authors
 
